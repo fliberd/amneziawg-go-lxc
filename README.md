@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/fliberd/amneziawg-go-lxc/main/setup.
 ### Alpine 3.19 LXC install
 
 ```
-wget https://raw.githubusercontent.com/fliberd/amneziawg-go-lxc/main/images/alpine-3.19-amd64.tar.xz /var/lib/vz/template/cache/alpine-3.19-amd64.tar.xz
+wget https://github.com/fliberd/amneziawg-go-lxc/raw/master/images/alpine-3.19-amd64.tar.xz /var/lib/vz/template/cache/alpine-3.19-amd64.tar.xz
 ```
 
 
