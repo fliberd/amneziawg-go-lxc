@@ -4,10 +4,16 @@ Amnezia WG Go in LXC container for Proxmox
 ## Quick setup 
 
 ```bash
-wget -qO- https:// | bash
+wget -qO- https://raw.githubusercontent.com/fliberd/amneziawg-go-lxc/main/setup.sh | bash
 ``` 
 
 ## Build
+
+### Alpine 3.19 LXC install
+
+```
+pveam download https://raw.githubusercontent.com/fliberd/amneziawg-go-lxc/main/images/alpine-3.19-amd64.tar.xz alpine-3.19-amd64.tar.xz
+```
 
 
 *Made by Fliberd,
