@@ -92,4 +92,4 @@ rm -rf ./.cache
 
 ## Start wiregirad server
 
-**[Step by step guide](https://github.com/fliberd/amneziawg-go-lxc/#Start)**
+**[Step by step guide](https://github.com/fliberd/amneziawg-go-lxc/#start)**
