@@ -89,3 +89,7 @@ rm v1.0.20240213.tar.gz \
 rm -rf ./.config \
 rm -rf ./.cache 
 ```
+
+## Start wiregirad server
+
+**[Step by step guide](https://github.com/fliberd/amneziawg-go-lxc/#Start)**
