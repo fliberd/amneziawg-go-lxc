@@ -34,7 +34,7 @@ cd go/src && ./make.bash
 ```
 cd ~ && cp -r go /opt
 ```
-```
+```Please wait...
 ln -s /opt/go/bin/gofmt /usr/local/bin/gofmt && ln -s /opt/go/bin/go /usr/local/bin/go
 ```
 ```
@@ -65,5 +65,10 @@ wget https://github.com/fliberd/amneziawg-tools/archive/refs/tags/v1.0.20240213.
 ```
 tar xzvf v1.0.20240213.tar.gz
 ```
-
+```
+cd amneziawg-tools-1.0.20240213/src/
+```
+```
+make && make install
+```
 
