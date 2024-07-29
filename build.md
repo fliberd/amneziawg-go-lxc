@@ -66,9 +66,26 @@ wget https://github.com/fliberd/amneziawg-tools/archive/refs/tags/v1.0.20240213.
 tar xzvf v1.0.20240213.tar.gz
 ```
 ```
-cd amneziawg-tools-1.0.20240213/src/
+cd amneziawg-tools-1.0.20240213/src/ && apk add linux-headers
 ```
 ```
 make && make install
 ```
+**! - Congratulations**
 
+## Remove Go and Source
+
+```
+cd ~
+rm -rf /opt/go \
+rm /usr/local/bin/go \
+rm /usr/local/bin/gofmt \
+rm -rf amneziawg-go \
+rm -rf go \
+rm -rf amneziawg-tools-1.0.20240213 \
+rm -rf  golang \
+rm go1.20.4.src.tar.gz \
+rm v1.0.20240213.tar.gz \
+rm -rf ./.config \
+rm -rf ./.cache 
+```
