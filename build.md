@@ -44,7 +44,7 @@ apk del gcc-go
 ## Build amneziawg-go
 
 ```
-cd ~ && git clone https://github.com/amnezia-vpn/amneziawg-go -b v0.2.4
+cd ~ && git clone https://github.com/fliberd/amneziawg-go -b v0.2.4
 ```
 ```
 cd amneziawg-go && go env && go env -w GOMODCACHE=$HOME/golang/pkg/mod
@@ -60,7 +60,7 @@ mkdir /dev/net && mknod /dev/net/tun c 10 200
 ```
 ## Build amneziawg-tools
 ```
-wget https://github.com/amnezia-vpn/amneziawg-tools/archive/refs/tags/v1.0.20240213.tar.gz
+wget https://github.com/fliberd/amneziawg-tools/archive/refs/tags/v1.0.20240213.tar.gz
 ```
 ```
 tar xzvf v1.0.20240213.tar.gz
