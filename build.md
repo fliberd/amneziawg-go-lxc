@@ -90,6 +90,6 @@ rm -rf ./.config \
 rm -rf ./.cache 
 ```
 
-## Start wiregirad server
+## Start wiregurad server
 
 **[Step by step guide](https://github.com/fliberd/amneziawg-go-lxc/#start)**
